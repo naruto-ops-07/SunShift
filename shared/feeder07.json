@@ -1,0 +1,1019 @@
+{
+  "$comment": "SunShift demonstration feeder. This roster is SYNTHETIC: it is a plausible smallholder mix for a solarised agricultural feeder segment on the Deccan Plateau, not a real feeder or real farmers. Shared by the web engine (web/src/engine) and the API (api/sunshift).",
+  "feeder": {
+    "id": "FDR-07",
+    "name": "Feeder 07",
+    "dataLabel": "SYNTHETIC ROSTER",
+    "transformerKva": 100,
+    "feederLimitKw": 85,
+    "gridAllowanceKw": 0,
+    "forecastReserve": 0.08,
+    "solar": {
+      "dcKwp": 110,
+      "acKw": 90,
+      "tiltDeg": 15,
+      "azimuthDeg": 180,
+      "gammaPdc": -0.0037,
+      "systemLosses": 0.14,
+      "albedo": 0.2
+    },
+    "slots": {
+      "startHour": 6,
+      "minutes": 15,
+      "count": 48
+    },
+    "minRunSlots": 2,
+    "tripLockoutSlots": 1
+  },
+  "locations": [
+    {
+      "id": "deccan",
+      "label": "Deccan Plateau, Telangana",
+      "lat": 17.05,
+      "lon": 79.27,
+      "elevation": 280,
+      "timezone": "Asia/Kolkata",
+      "utcOffsetHours": 5.5,
+      "linkeTurbidity": [
+        4.2,
+        4.6,
+        4.9,
+        5.0,
+        5.1,
+        5.4,
+        5.6,
+        5.4,
+        5.0,
+        4.5,
+        4.2,
+        4.1
+      ],
+      "climate": {
+        "tmax": [
+          29.5,
+          32.3,
+          35.8,
+          38.0,
+          39.2,
+          34.0,
+          30.6,
+          29.8,
+          30.9,
+          30.7,
+          29.2,
+          28.3
+        ],
+        "tmin": [
+          15.2,
+          17.6,
+          21.0,
+          24.2,
+          26.2,
+          24.3,
+          22.9,
+          22.4,
+          22.1,
+          20.4,
+          17.3,
+          14.6
+        ],
+        "rhMean": [
+          55,
+          46,
+          39,
+          38,
+          41,
+          61,
+          72,
+          75,
+          72,
+          65,
+          58,
+          56
+        ],
+        "wind10": [
+          2.4,
+          2.6,
+          2.8,
+          3.0,
+          3.6,
+          4.6,
+          4.8,
+          4.1,
+          3.0,
+          2.3,
+          2.4,
+          2.4
+        ],
+        "rainDays": [
+          1,
+          1,
+          1,
+          2,
+          3,
+          9,
+          13,
+          13,
+          10,
+          6,
+          2,
+          1
+        ],
+        "rainMm": [
+          9,
+          10,
+          15,
+          25,
+          30,
+          110,
+          170,
+          190,
+          160,
+          95,
+          25,
+          6
+        ],
+        "cloud": [
+          0.18,
+          0.15,
+          0.17,
+          0.2,
+          0.25,
+          0.6,
+          0.75,
+          0.75,
+          0.6,
+          0.4,
+          0.28,
+          0.2
+        ]
+      }
+    },
+    {
+      "id": "vidarbha",
+      "label": "Vidarbha, Maharashtra",
+      "lat": 20.71,
+      "lon": 77.0,
+      "elevation": 310,
+      "timezone": "Asia/Kolkata",
+      "utcOffsetHours": 5.5,
+      "linkeTurbidity": [
+        4.3,
+        4.7,
+        5.0,
+        5.2,
+        5.4,
+        5.6,
+        5.7,
+        5.5,
+        5.1,
+        4.6,
+        4.3,
+        4.2
+      ],
+      "climate": {
+        "tmax": [
+          29.8,
+          32.8,
+          37.0,
+          40.8,
+          42.4,
+          36.5,
+          31.0,
+          30.0,
+          31.4,
+          32.2,
+          30.6,
+          29.0
+        ],
+        "tmin": [
+          13.5,
+          15.6,
+          19.8,
+          24.0,
+          27.4,
+          25.8,
+          23.6,
+          23.0,
+          22.3,
+          19.4,
+          15.4,
+          12.8
+        ],
+        "rhMean": [
+          52,
+          42,
+          33,
+          30,
+          32,
+          58,
+          78,
+          80,
+          75,
+          62,
+          55,
+          54
+        ],
+        "wind10": [
+          2.1,
+          2.4,
+          2.8,
+          3.2,
+          4.0,
+          4.8,
+          4.6,
+          4.0,
+          2.9,
+          2.0,
+          1.9,
+          2.0
+        ],
+        "rainDays": [
+          1,
+          1,
+          1,
+          1,
+          2,
+          9,
+          14,
+          14,
+          9,
+          4,
+          1,
+          1
+        ],
+        "rainMm": [
+          12,
+          10,
+          12,
+          8,
+          14,
+          160,
+          260,
+          240,
+          160,
+          60,
+          18,
+          10
+        ],
+        "cloud": [
+          0.2,
+          0.16,
+          0.15,
+          0.15,
+          0.2,
+          0.62,
+          0.8,
+          0.78,
+          0.6,
+          0.35,
+          0.22,
+          0.2
+        ]
+      }
+    },
+    {
+      "id": "saurashtra",
+      "label": "Saurashtra, Gujarat",
+      "lat": 22.3,
+      "lon": 70.8,
+      "elevation": 130,
+      "timezone": "Asia/Kolkata",
+      "utcOffsetHours": 5.5,
+      "linkeTurbidity": [
+        4.4,
+        4.8,
+        5.1,
+        5.4,
+        5.7,
+        5.8,
+        5.8,
+        5.6,
+        5.2,
+        4.8,
+        4.5,
+        4.3
+      ],
+      "climate": {
+        "tmax": [
+          28.6,
+          31.2,
+          35.4,
+          38.6,
+          39.4,
+          36.6,
+          32.6,
+          31.2,
+          33.4,
+          35.2,
+          32.6,
+          29.6
+        ],
+        "tmin": [
+          11.8,
+          14.2,
+          18.6,
+          22.4,
+          25.6,
+          26.6,
+          25.4,
+          24.6,
+          23.8,
+          20.8,
+          16.4,
+          12.8
+        ],
+        "rhMean": [
+          48,
+          44,
+          42,
+          48,
+          60,
+          68,
+          78,
+          80,
+          72,
+          55,
+          48,
+          48
+        ],
+        "wind10": [
+          2.6,
+          2.8,
+          3.2,
+          3.8,
+          5.0,
+          5.8,
+          5.6,
+          4.8,
+          3.4,
+          2.4,
+          2.3,
+          2.4
+        ],
+        "rainDays": [
+          0,
+          0,
+          0,
+          0,
+          1,
+          5,
+          10,
+          9,
+          5,
+          1,
+          0,
+          0
+        ],
+        "rainMm": [
+          1,
+          1,
+          1,
+          1,
+          8,
+          110,
+          230,
+          180,
+          90,
+          18,
+          4,
+          1
+        ],
+        "cloud": [
+          0.12,
+          0.1,
+          0.1,
+          0.12,
+          0.2,
+          0.5,
+          0.75,
+          0.72,
+          0.5,
+          0.2,
+          0.14,
+          0.12
+        ]
+      }
+    }
+  ],
+  "soils": {
+    "sandy_loam": {
+      "label": "Sandy loam",
+      "thetaFC": 0.2,
+      "thetaWP": 0.09
+    },
+    "red_loam": {
+      "label": "Red loam (Alfisol)",
+      "thetaFC": 0.24,
+      "thetaWP": 0.12
+    },
+    "clay_loam": {
+      "label": "Clay loam",
+      "thetaFC": 0.32,
+      "thetaWP": 0.19
+    },
+    "black_cotton": {
+      "label": "Black soil (Vertisol)",
+      "thetaFC": 0.4,
+      "thetaWP": 0.24
+    }
+  },
+  "crops": {
+    "cotton": {
+      "label": "Cotton",
+      "kcIni": 0.35,
+      "kcMid": 1.18,
+      "kcEnd": 0.6,
+      "stageDays": [
+        30,
+        50,
+        60,
+        55
+      ],
+      "stageLabels": [
+        "Emergence",
+        "Squaring",
+        "Flowering & boll set",
+        "Boll opening"
+      ],
+      "rootMin": 0.3,
+      "rootMax": 1.4,
+      "p": 0.65,
+      "heightM": 1.3,
+      "stageSensitivity": [
+        0.4,
+        0.6,
+        1.0,
+        0.45
+      ]
+    },
+    "maize": {
+      "label": "Maize",
+      "kcIni": 0.3,
+      "kcMid": 1.2,
+      "kcEnd": 0.6,
+      "stageDays": [
+        20,
+        35,
+        40,
+        30
+      ],
+      "stageLabels": [
+        "Emergence",
+        "Vegetative",
+        "Tasselling & silking",
+        "Grain fill"
+      ],
+      "rootMin": 0.3,
+      "rootMax": 1.2,
+      "p": 0.55,
+      "heightM": 2.0,
+      "stageSensitivity": [
+        0.4,
+        0.65,
+        1.0,
+        0.55
+      ]
+    },
+    "groundnut": {
+      "label": "Groundnut",
+      "kcIni": 0.4,
+      "kcMid": 1.15,
+      "kcEnd": 0.6,
+      "stageDays": [
+        25,
+        35,
+        45,
+        25
+      ],
+      "stageLabels": [
+        "Emergence",
+        "Vegetative",
+        "Pegging & pod fill",
+        "Maturity"
+      ],
+      "rootMin": 0.3,
+      "rootMax": 0.8,
+      "p": 0.5,
+      "heightM": 0.4,
+      "stageSensitivity": [
+        0.4,
+        0.6,
+        1.0,
+        0.5
+      ]
+    },
+    "chilli": {
+      "label": "Chilli",
+      "kcIni": 0.6,
+      "kcMid": 1.05,
+      "kcEnd": 0.9,
+      "stageDays": [
+        30,
+        40,
+        60,
+        30
+      ],
+      "stageLabels": [
+        "Establishment",
+        "Vegetative",
+        "Flowering & fruiting",
+        "Picking"
+      ],
+      "rootMin": 0.25,
+      "rootMax": 0.7,
+      "p": 0.3,
+      "heightM": 0.7,
+      "stageSensitivity": [
+        0.45,
+        0.65,
+        1.0,
+        0.7
+      ]
+    }
+  },
+  "irrigationMethods": {
+    "drip": {
+      "label": "Drip",
+      "efficiency": 0.9
+    },
+    "sprinkler": {
+      "label": "Sprinkler",
+      "efficiency": 0.75
+    },
+    "furrow": {
+      "label": "Furrow",
+      "efficiency": 0.6
+    }
+  },
+  "pump": {
+    "motorEfficiency": {
+      "3": 0.82,
+      "5": 0.83,
+      "7.5": 0.85
+    },
+    "pumpEfficiency": 0.48
+  },
+  "farms": [
+    {
+      "id": 1,
+      "crop": "cotton",
+      "areaHa": 0.9,
+      "soil": "black_cotton",
+      "method": "furrow",
+      "pumpHp": 5,
+      "headM": 30,
+      "sowingDaysAgo": 96,
+      "initDepletion": 0.42,
+      "window": [
+        7,
+        17
+      ],
+      "maxHours": 5,
+      "lang": "te",
+      "habit": {
+        "start": 9.0,
+        "hours": 5.0,
+        "everyDays": 2,
+        "phase": 0
+      }
+    },
+    {
+      "id": 2,
+      "crop": "maize",
+      "areaHa": 0.6,
+      "soil": "red_loam",
+      "method": "furrow",
+      "pumpHp": 5,
+      "headM": 26,
+      "sowingDaysAgo": 58,
+      "initDepletion": 0.3,
+      "window": [
+        6,
+        16
+      ],
+      "maxHours": 4,
+      "lang": "te",
+      "habit": {
+        "start": 8.5,
+        "hours": 4.0,
+        "everyDays": 2,
+        "phase": 1
+      }
+    },
+    {
+      "id": 3,
+      "crop": "cotton",
+      "areaHa": 1.2,
+      "soil": "black_cotton",
+      "method": "drip",
+      "pumpHp": 7.5,
+      "headM": 38,
+      "sowingDaysAgo": 104,
+      "initDepletion": 0.25,
+      "window": [
+        6,
+        18
+      ],
+      "maxHours": 6,
+      "lang": "te",
+      "habit": {
+        "start": 9.0,
+        "hours": 4.0,
+        "everyDays": 1,
+        "phase": 0
+      }
+    },
+    {
+      "id": 4,
+      "crop": "chilli",
+      "areaHa": 0.4,
+      "soil": "red_loam",
+      "method": "drip",
+      "pumpHp": 3,
+      "headM": 22,
+      "sowingDaysAgo": 38,
+      "initDepletion": 0.2,
+      "window": [
+        7,
+        17
+      ],
+      "maxHours": 3,
+      "lang": "te",
+      "habit": {
+        "start": 8.0,
+        "hours": 2.5,
+        "everyDays": 1,
+        "phase": 0
+      }
+    },
+    {
+      "id": 5,
+      "crop": "groundnut",
+      "areaHa": 0.7,
+      "soil": "sandy_loam",
+      "method": "sprinkler",
+      "pumpHp": 5,
+      "headM": 30,
+      "sowingDaysAgo": 72,
+      "initDepletion": 0.48,
+      "window": [
+        7,
+        17
+      ],
+      "maxHours": 4,
+      "lang": "hi",
+      "habit": {
+        "start": 9.0,
+        "hours": 4.0,
+        "everyDays": 2,
+        "phase": 1
+      }
+    },
+    {
+      "id": 6,
+      "crop": "maize",
+      "areaHa": 0.8,
+      "soil": "clay_loam",
+      "method": "furrow",
+      "pumpHp": 5,
+      "headM": 28,
+      "sowingDaysAgo": 64,
+      "initDepletion": 0.38,
+      "window": [
+        7,
+        17
+      ],
+      "maxHours": 5,
+      "lang": "te",
+      "habit": {
+        "start": 10.0,
+        "hours": 5.0,
+        "everyDays": 2,
+        "phase": 0
+      }
+    },
+    {
+      "id": 7,
+      "crop": "cotton",
+      "areaHa": 1.4,
+      "soil": "sandy_loam",
+      "method": "furrow",
+      "pumpHp": 7.5,
+      "headM": 36,
+      "sowingDaysAgo": 92,
+      "initDepletion": 0.58,
+      "window": [
+        7,
+        18
+      ],
+      "maxHours": 6,
+      "lang": "te",
+      "habit": {
+        "start": 9.0,
+        "hours": 6.0,
+        "everyDays": 2,
+        "phase": 1
+      }
+    },
+    {
+      "id": 8,
+      "crop": "chilli",
+      "areaHa": 0.5,
+      "soil": "red_loam",
+      "method": "drip",
+      "pumpHp": 5,
+      "headM": 30,
+      "sowingDaysAgo": 30,
+      "initDepletion": 0.22,
+      "window": [
+        6,
+        17
+      ],
+      "maxHours": 3,
+      "lang": "te",
+      "habit": {
+        "start": 9.0,
+        "hours": 3.0,
+        "everyDays": 1,
+        "phase": 0
+      }
+    },
+    {
+      "id": 9,
+      "crop": "groundnut",
+      "areaHa": 0.5,
+      "soil": "sandy_loam",
+      "method": "furrow",
+      "pumpHp": 3,
+      "headM": 20,
+      "sowingDaysAgo": 80,
+      "initDepletion": 0.35,
+      "window": [
+        7,
+        16
+      ],
+      "maxHours": 4,
+      "lang": "en",
+      "habit": {
+        "start": 9.5,
+        "hours": 4.0,
+        "everyDays": 2,
+        "phase": 0
+      }
+    },
+    {
+      "id": 10,
+      "crop": "cotton",
+      "areaHa": 1.0,
+      "soil": "black_cotton",
+      "method": "furrow",
+      "pumpHp": 5,
+      "headM": 32,
+      "sowingDaysAgo": 100,
+      "initDepletion": 0.5,
+      "window": [
+        7,
+        17
+      ],
+      "maxHours": 5,
+      "lang": "te",
+      "habit": {
+        "start": 8.5,
+        "hours": 5.0,
+        "everyDays": 2,
+        "phase": 1
+      }
+    },
+    {
+      "id": 11,
+      "crop": "maize",
+      "areaHa": 1.0,
+      "soil": "red_loam",
+      "method": "sprinkler",
+      "pumpHp": 7.5,
+      "headM": 40,
+      "sowingDaysAgo": 54,
+      "initDepletion": 0.33,
+      "window": [
+        6,
+        17
+      ],
+      "maxHours": 5,
+      "lang": "hi",
+      "habit": {
+        "start": 8.5,
+        "hours": 4.5,
+        "everyDays": 2,
+        "phase": 0
+      }
+    },
+    {
+      "id": 12,
+      "crop": "cotton",
+      "areaHa": 0.7,
+      "soil": "clay_loam",
+      "method": "drip",
+      "pumpHp": 5,
+      "headM": 32,
+      "sowingDaysAgo": 88,
+      "initDepletion": 0.28,
+      "window": [
+        7,
+        18
+      ],
+      "maxHours": 4,
+      "lang": "te",
+      "habit": {
+        "start": 9.5,
+        "hours": 3.5,
+        "everyDays": 1,
+        "phase": 0
+      }
+    },
+    {
+      "id": 13,
+      "crop": "groundnut",
+      "areaHa": 0.8,
+      "soil": "red_loam",
+      "method": "sprinkler",
+      "pumpHp": 5,
+      "headM": 28,
+      "sowingDaysAgo": 66,
+      "initDepletion": 0.44,
+      "window": [
+        7,
+        17
+      ],
+      "maxHours": 4,
+      "lang": "te",
+      "habit": {
+        "start": 9.0,
+        "hours": 4.0,
+        "everyDays": 2,
+        "phase": 1
+      }
+    },
+    {
+      "id": 14,
+      "crop": "chilli",
+      "areaHa": 0.4,
+      "soil": "clay_loam",
+      "method": "drip",
+      "pumpHp": 3,
+      "headM": 18,
+      "sowingDaysAgo": 44,
+      "initDepletion": 0.18,
+      "window": [
+        7,
+        17
+      ],
+      "maxHours": 3,
+      "lang": "te",
+      "habit": {
+        "start": 7.5,
+        "hours": 2.5,
+        "everyDays": 1,
+        "phase": 0
+      }
+    },
+    {
+      "id": 15,
+      "crop": "maize",
+      "areaHa": 0.6,
+      "soil": "sandy_loam",
+      "method": "furrow",
+      "pumpHp": 5,
+      "headM": 26,
+      "sowingDaysAgo": 62,
+      "initDepletion": 0.52,
+      "window": [
+        7,
+        17
+      ],
+      "maxHours": 4,
+      "lang": "hi",
+      "habit": {
+        "start": 9.0,
+        "hours": 4.0,
+        "everyDays": 2,
+        "phase": 0
+      }
+    },
+    {
+      "id": 16,
+      "crop": "cotton",
+      "areaHa": 1.3,
+      "soil": "black_cotton",
+      "method": "furrow",
+      "pumpHp": 7.5,
+      "headM": 38,
+      "sowingDaysAgo": 108,
+      "initDepletion": 0.36,
+      "window": [
+        7,
+        18
+      ],
+      "maxHours": 6,
+      "lang": "te",
+      "habit": {
+        "start": 9.0,
+        "hours": 6.0,
+        "everyDays": 3,
+        "phase": 0
+      }
+    },
+    {
+      "id": 17,
+      "crop": "groundnut",
+      "areaHa": 0.6,
+      "soil": "red_loam",
+      "method": "furrow",
+      "pumpHp": 5,
+      "headM": 26,
+      "sowingDaysAgo": 76,
+      "initDepletion": 0.4,
+      "window": [
+        7,
+        16
+      ],
+      "maxHours": 4,
+      "lang": "te",
+      "habit": {
+        "start": 14.0,
+        "hours": 4.0,
+        "everyDays": 2,
+        "phase": 1
+      }
+    },
+    {
+      "id": 18,
+      "crop": "chilli",
+      "areaHa": 0.4,
+      "soil": "sandy_loam",
+      "method": "drip",
+      "pumpHp": 3,
+      "headM": 24,
+      "sowingDaysAgo": 34,
+      "initDepletion": 0.26,
+      "window": [
+        6,
+        16
+      ],
+      "maxHours": 3,
+      "lang": "en",
+      "habit": {
+        "start": 9.0,
+        "hours": 2.5,
+        "everyDays": 1,
+        "phase": 0
+      }
+    },
+    {
+      "id": 19,
+      "crop": "cotton",
+      "areaHa": 0.9,
+      "soil": "red_loam",
+      "method": "furrow",
+      "pumpHp": 5,
+      "headM": 30,
+      "sowingDaysAgo": 98,
+      "initDepletion": 0.46,
+      "window": [
+        7,
+        17
+      ],
+      "maxHours": 5,
+      "lang": "te",
+      "habit": {
+        "start": 9.5,
+        "hours": 5.0,
+        "everyDays": 2,
+        "phase": 1
+      }
+    },
+    {
+      "id": 20,
+      "crop": "maize",
+      "areaHa": 0.9,
+      "soil": "clay_loam",
+      "method": "sprinkler",
+      "pumpHp": 7.5,
+      "headM": 40,
+      "sowingDaysAgo": 60,
+      "initDepletion": 0.31,
+      "window": [
+        6,
+        17
+      ],
+      "maxHours": 5,
+      "lang": "hi",
+      "habit": {
+        "start": 8.5,
+        "hours": 4.5,
+        "everyDays": 2,
+        "phase": 1
+      }
+    }
+  ]
+}

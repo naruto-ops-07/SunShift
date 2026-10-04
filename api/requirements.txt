@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+ortools>=9.10
+pvlib>=0.11
+pandas>=2.1
+numpy>=1.26
+httpx>=0.27
+pydantic>=2.6
+sqlalchemy>=2.0
+psycopg[binary]>=3.1
